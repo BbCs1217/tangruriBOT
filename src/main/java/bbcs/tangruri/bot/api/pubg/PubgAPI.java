@@ -1,6 +1,6 @@
-package bbcs.tangruriBot.API.pubgAPI;
+package bbcs.tangruri.bot.api.pubg;
 
-import bbcs.tangruriBot.API.API;
+import bbcs.tangruri.bot.api.API;
 
 import java.util.List;
 

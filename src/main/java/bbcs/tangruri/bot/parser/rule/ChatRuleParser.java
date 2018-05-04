@@ -1,8 +1,8 @@
-package bbcs.tangruriBot.Parser.ChatParser;
+package bbcs.tangruri.bot.parser.rule;
 
-import bbcs.tangruriBot.Parser.Parser;
-import bbcs.tangruriBot.command.Command;
-import bbcs.tangruriBot.command.factory.CommandFactory;
+import bbcs.tangruri.bot.command.factory.CommandFactory;
+import bbcs.tangruri.bot.parser.Parser;
+import bbcs.tangruri.bot.command.Command;
 
 import java.util.ArrayList;
 import java.util.Arrays;

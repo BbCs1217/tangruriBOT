@@ -1,4 +1,4 @@
-import bbcs.tangruriBot.API.pubgAPI.PubgAPI;
+import bbcs.tangruri.bot.api.pubg.PubgAPI;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;

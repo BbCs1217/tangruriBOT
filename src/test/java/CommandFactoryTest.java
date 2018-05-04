@@ -1,5 +1,5 @@
-import bbcs.tangruriBot.command.Command;
-import bbcs.tangruriBot.command.factory.CommandFactory;
+import bbcs.tangruri.bot.command.Command;
+import bbcs.tangruri.bot.command.factory.CommandFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;

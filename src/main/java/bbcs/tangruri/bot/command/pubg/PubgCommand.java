@@ -1,10 +1,11 @@
-package bbcs.tangruriBot.command.pubg;
+package bbcs.tangruri.bot.command.pubg;
 
-import bbcs.tangruriBot.API.pubgAPI.PubgAPI;
+import bbcs.tangruri.bot.api.pubg.PubgAPI;
+import bbcs.tangruri.bot.command.Command;
 
 import java.util.List;
 
-public class PubgCommand implements bbcs.tangruriBot.command.Command {
+public class PubgCommand implements Command {
 	private PubgAPI pubgAPI;
 	private List<String> params;
 

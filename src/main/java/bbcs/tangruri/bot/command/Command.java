@@ -1,4 +1,4 @@
-package bbcs.tangruriBot.command;
+package bbcs.tangruri.bot.command;
 
 import java.util.List;
 

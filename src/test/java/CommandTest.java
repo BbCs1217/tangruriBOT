@@ -1,6 +1,6 @@
-import bbcs.tangruriBot.API.pubgAPI.PubgAPI;
-import bbcs.tangruriBot.command.Command;
-import bbcs.tangruriBot.command.pubg.PubgCommand;
+import bbcs.tangruri.bot.api.pubg.PubgAPI;
+import bbcs.tangruri.bot.command.Command;
+import bbcs.tangruri.bot.command.pubg.PubgCommand;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

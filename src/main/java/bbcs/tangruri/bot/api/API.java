@@ -1,4 +1,4 @@
-package bbcs.tangruriBot.API;
+package bbcs.tangruri.bot.api;
 
 import java.util.List;
 
