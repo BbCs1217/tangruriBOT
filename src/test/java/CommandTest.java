@@ -15,7 +15,7 @@ public class CommandTest {
 		Command pubgCommand = new PubgCommand(new PubgAPI());
 		assertNotNull(pubgCommand);
 		pubgCommand.setParameters(Arrays.asList(new String[]{"stat", "abcd"}));
-		assertTrue(pubgCommand.execute());
+		assertNotNull(pubgCommand.execute());
 	}
 
 	@Test

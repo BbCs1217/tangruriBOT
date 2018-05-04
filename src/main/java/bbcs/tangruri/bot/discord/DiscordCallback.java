@@ -17,7 +17,7 @@ public class DiscordCallback implements FutureCallback<DiscordAPI> {
 					return;
 				Command c = p.parse(message.getContent());
 				if(c != null) {
-					c.execute();
+					message.reply(c.execute());
 				}
 			}
 		});

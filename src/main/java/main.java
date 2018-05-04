@@ -3,8 +3,6 @@ import bbcs.tangruri.bot.util.FileUtil;
 import de.btobastian.javacord.DiscordAPI;
 import de.btobastian.javacord.Javacord;
 
-import java.io.*;
-
 public class main {
 	public static void main(String args[]) {
 		String token = FileUtil.readFile(Thread.currentThread().getContextClassLoader().getResource("token").getFile());

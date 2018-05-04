@@ -21,7 +21,7 @@ public class PubgCommand implements Command {
 		return params;
 	}
 
-	public boolean execute() {
+	public String execute() {
 		return pubgAPI.callAPI(params);
 	}
 }
