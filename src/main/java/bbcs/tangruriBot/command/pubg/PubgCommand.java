@@ -21,6 +21,6 @@ public class PubgCommand implements bbcs.tangruriBot.command.Command {
 	}
 
 	public boolean execute() {
-		return true;
+		return pubgAPI.callAPI(params);
 	}
 }

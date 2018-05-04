@@ -6,7 +6,6 @@ import bbcs.tangruriBot.command.factory.CommandFactory;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class ChatRuleParser implements Parser {
 	public Command parse(String msg) {

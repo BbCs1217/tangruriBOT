@@ -11,8 +11,9 @@ public class ChatRuleParserTest {
 	public void ruleParseTest() {
 		ChatRuleParser parser = new ChatRuleParser();
 
-		Command c = parser.parse("!pubg apache-tomcat");
+		Command c = parser.parse("!pubg stat apache-tomcat");
 		assertEquals(PubgCommand.class, c.getClass());
-		assertTrue(c.getParameters().get(0).equals("apache-tomcat"));
+		assertTrue(c.getParameters().get(0).equals("stat"));
+		assertTrue(c.getParameters().get(1).equals("apache-tomcat"));
 	}
 }
